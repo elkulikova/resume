@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Это сайт-резюме Куликовой Елены">
     <meta name="keywords" content="Resume, cv">
+    <link rel="stylesheet" href="style.css">
     <title>Elena Resume</title>
 </head>
 <body>
-<img src="iam.jpg" width="150">
+<div class="container">
+<div class="info">
+
+<img class="img" src="iam.jpg">
+<div class="info-text">
     <h1>Елена Куликова</h1>
-    <p>Я <b>технический специалист</b> GetCourse</p>
+    <p class="iam">Я <b>технический специалист</b> GetCourse</p>
     <p>Люблю <i>смотреть фильмы, мечтать</i> и проводить время со своими детьми.</p>
     <h2><b>Список социальных сетей</b></h2>
+    <div class="cc">
     <a href="https://vk.com/elenaasssist" target="_blank">Vk<a>
     |
     <a href="https://www.instagram.com/ellie_assist/" target="_blank">instagram</a>
     |
     <a href="https://t.me/ElenKulikova" target="_blank">Telegram</a>
-<h2>Мое хобби</h2>
+    </div>
+    </div>
+    </div>
+<div class="lihnoe1">
+<h2 class="obomne">Мое хобби</h2>
 <ol>
 <li>Дети</li>
 <li>Работа</li>
@@ -27,13 +37,15 @@
 <li>Фильмы</li>
 <li>Чтение</li>
 </ol>
-<h2>Опыт работы</h2>
+</div>
+<div class="lihnoe2">
+<h2 class="obomne">Опыт работы</h2>
 <table>
-<thead>
-<th>Название</th>
-<th>Должность</th>
-<th>Год</th>
-</thead>
+<tr>
+<td>Название</td>
+<td>Должность</td>
+<td>Год</td>
+</tr>
 <tbody>
 <tr>
 <td>1 работа</td>
@@ -52,25 +64,40 @@
 </tr>
 </tbody>
 </table>
+</div>
 
+<div class="lihnoe3">
+<h2 class="obomne">Мои курсы</h2>
+<ul>
+<li>Личный ассистент</li>
+<li>Специалист GetCourse</li>
+</ul>
+</div>
 
-<form>
-<div>
+<form class="form">
+<h2> Связаться со мной</h2>
+<div class="form-row">
+<div class="form-group">
 <label for="text">Ваше имя:</label>
 <input type="text" placeholder="Ваше имя:">
 </div>
 
-<div>
+<div class="form-group">
 <label for="email">Введите email:</label>
 <input type="email" id="email" placeholder="Введите email">
 </div>
+</div>
 
-<div>
+<div class="form-group">
 <label for="massage">Ваше сообщение:</label>
 <textarea id="massage" placeholder = "Введите сообщение..."></textarea>
 </div>
-<button>Отправить!</button>
+<button class="btn">Отправить!</button>
 </form>
+
+</div>
+
+
 
     
 </body>

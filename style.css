@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+
+}
+.obomne {
+    color: #991990;
+}
+
+.cc {
+    color: blue;
+}
+
+.iam {
+    color: red;
+}
+
+.lihnoe1{
+    border: 1px solid azure;
+    border-radius: 30;
+    background-color: azure;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.lihnoe2 {
+    border: 1px solid azure;
+    border-radius: 30;
+    background-color: gold;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+
+.lihnoe3 {
+    border: 1px solid azure;
+    border-radius: 30;
+    background-color: darkcyan;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.container {
+margin: auto;
+max-width: 750px;
+margin: auto;
+}
+
+a {
+    color: #808080;
+    text-decoration: none;
+}
+
+a:hover {
+color: #991990;
+}
+
+
+
+a:active {
+    color: black;
+}
+
+.btn {
+    background: black;
+    color: aliceblue;
+    padding: 15px; 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+}
+
+table {
+    width: 100%;
+}
+
+table td:hover {
+    background-color: aqua;
+}
+
+
+
+table td:nth-child(2) {
+    background: #fffeee;
+    width: 50%;
+}
+
+form h2 {
+    text-align: center;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86889f;
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding-bottom: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 650px){
+.form-row {
+    margin-bottom: 10px;
+    display: block;
+
+}
+.form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+}
+
+.form-row .form-group: last-child {
+    margin-right: 0;
+}
